@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.orange-color {
+    color: #fc8946;
+}
+
+.gray{
+    color: #575757;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.btn{
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 12px;
+    border-radius: 30px;
+
+}
+
+.half {
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 80px;
+}
+
+.left-side{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+
+.half img {
+    width: 80%;
+}
+
+.About {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.img2 img{
+    width: 45%;
+    margin-left: 15%;
+}
+
+#recipies{
+    text-align: center;
+}
+
+.Title {
+    height: 60%;
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.images img{
+    height: 80%;
+    width: 70%;
+    margin-top: 5%; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer{
+    height: 175px;
+    text-align: center;
+    background-color: black;
+}
+
+footer p{
+    color:gray;
+}
+
+footer h3{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
